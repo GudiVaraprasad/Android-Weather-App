@@ -10,6 +10,6 @@
 
 > The furtherance of weather forecasting is - **WEATHER APP DEVELOPMENT**
 
-![](./APK/img/background2.jpg)
+![](./APK/img/background.jpg)
 
 [Click here to know more](https://gudivaraprasad.github.io/Android-Weather-App/APK/)
