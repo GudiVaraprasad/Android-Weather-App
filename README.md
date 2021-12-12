@@ -12,10 +12,10 @@
 
 ![](./APK/img/background.jpg)
 
-> UML Diagrams : [Click here](https://gudivaraprasad.github.io/Android-Weather-App/Files/UML%20Diagrams/)
+> UML Diagrams : [Click here](https://github.com/GudiVaraprasad/Android-Weather-App/tree/main/Files/UML%20Diagrams)
 
-> Project Report : [Click here](https://gudivaraprasad.github.io/Android-Weather-App/APK/Files/Report.pdf)
+> Project Report : [Click here](https://github.com/GudiVaraprasad/Android-Weather-App/tree/main/Files/Report.pdf)
 
-> Project Presentations : [Click here](https://gudivaraprasad.github.io/Android-Weather-App/APK/Files)
+> Project Presentations : [Click here](https://github.com/GudiVaraprasad/Android-Weather-App/tree/main/Files/)
 
 ## [PROJECT DEMO HERE](https://gudivaraprasad.github.io/Android-Weather-App/APK/)
