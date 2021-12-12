@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="shortcut icon" href="./img/weatherlogo.png" type="image/png" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>My Weather App APK</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--Main Navigation-->
+    <header>
+      <style>
+        #intro {
+          background-image: url("./img/background2.jpg");
+          height: 100vh;
+        }
+        ::-webkit-scrollbar {
+          width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+          background: #eee;
+        }
+
+        ::-webkit-scrollbar-thumb {
+          background: #333;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+          background: #222;
+        }
+
+        /* Height for devices larger than 576px */
+        @media (min-width: 992px) {
+          #intro {
+            margin-top: -58.59px;
+          }
+
+          #features {
+            margin-top: -58.59px;
+          }
+        }
+
+        .navbar .nav-link {
+          color: #fff !important;
+        }
+      </style>
+
+      <!-- Navbar -->
+      <nav
+        class="navbar navbar-expand-lg navbar-dark d-none d-lg-block"
+        style="z-index: 2000"
+      >
+        <div class="container-fluid">
+          <!-- Navbar brand -->
+          <a
+            class="navbar-brand nav-link"
+            target="_blank"
+            href="https://gudivaraprasad.github.io/GVP/"
+          >
+            <strong>GVP</strong>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarExample01"
+            aria-controls="navbarExample01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarExample01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="#intro">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about" rel="nofollow">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#features">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#intro">Download App</a>
+              </li>
+            </ul>
+
+            <ul class="navbar-nav d-flex flex-row">
+              <!-- Icons -->
+              <li class="nav-item me-3 me-lg-0">
+                <a
+                  class="nav-link"
+                  href="https://www.youtube.com/channel/UCR2gr-sBjqnH0gW-Ca6i7Hw?sub_confirmation=1"
+                  rel="nofollow"
+                  target="_blank"
+                >
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </li>
+              <li class="nav-item me-3 me-lg-0">
+                <a
+                  class="nav-link"
+                  href="https://github.com/GudiVaraprasad"
+                  rel="nofollow"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar -->
+
+      <!-- Background image -->
+      <div id="intro" class="bg-image shadow-2-strong">
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.767)">
+          <div
+            class="
+              container
+              d-flex
+              align-items-center
+              justify-content-center
+              text-center
+              h-100
+            "
+          >
+            <div class="text-white">
+              <h1 style="font-size: 4.2rem; color: #eee" class="mb-5">
+                Android Weather App
+              </h1>
+              <a
+                class="btn btn-rounded btn-outline-light btn-lg m-2"
+                href="./weatherapp.apk"
+                role="button"
+                rel="nofollow"
+                download
+                >Download APK <i class="fas fa-download"></i
+              ></a>
+              <a
+                class="btn btn-rounded btn-outline-light btn-lg m-2"
+                href="https://github.com/GudiVaraprasad/Android-Weather-App"
+                target="_blank"
+                role="button"
+                >Source Code <i class="fas fa-code"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Background image -->
+    </header>
+    <!--Main Navigation-->
+
+    <!--Main layout-->
+    <main class="mt-5">
+      <div class="container">
+        <!--Section: Content-->
+        <section>
+          <div class="row">
+            <div class="col-md-6 gx-5 mb-4">
+              <div
+                class="bg-image hover-overlay ripple shadow-2-strong"
+                data-mdb-ripple-color="light"
+              >
+                <img src="./img/rainyjourney.jpg" class="img-fluid" />
+                <a href="#!">
+                  <div
+                    class="mask"
+                    style="background-color: rgba(43, 41, 41, 0.342)"
+                  ></div>
+                </a>
+              </div>
+            </div>
+
+            <div id="about" class="col-md-6 gx-5 mb-4">
+              <h4><strong>Why this App ?</strong></h4>
+              <p class="text-muted">
+                No one can imagine how the weather is going to be on a
+                subsequent day. Definitely, the Weather forecast is a big thing
+                that enabled many of us to stay notified about the changes in
+                climatic conditions beforehand. It can be said that it is one of
+                the greatest advancements of all time, mothered by innovative
+                technologies and creative thoughts. Having an up to date
+                information about the weather helps us to take well-read
+                decisions.
+              </p>
+
+              <h4><strong>What this App solves ?</strong></h4>
+              <p class="text-muted">
+                These weather apps constantly update the forecasts for a day or
+                hour or sometimes for even a minute. These can be simply termed
+                as the compact weather devices, as they do not only tell about
+                the temperature of that specific region; instead they can
+                describe the accurate time of the sunrise and sunset, the time
+                of the rainfall, humidity levels, etc.
+              </p>
+            </div>
+          </div>
+        </section>
+        <!--Section: Content-->
+        <!-- </div> -->
+        <!-- Features -->
+        <h2
+          id="features"
+          style="font-size: 2rem; color: #111"
+          class="mt-3 mb-5 text-center"
+        >
+          FEATURES OF THE APP
+        </h2>
+        <div class="container">
+          <div class="row justify-content-md-center">
+            <div class="card" style="width: 18rem">
+              <img
+                src="./img/weatherdesc.jpg"
+                class="card-img-top"
+                alt="Weather Description"
+              />
+              <div class="card-body">
+                <p class="card-text fw-bold text-center">Weather Description</p>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem">
+              <img
+                src="./img/temp.png"
+                class="card-img-top"
+                alt="Temperature"
+              />
+              <div class="card-body">
+                <p class="card-text fw-bold text-center">
+                  Temperature of a Specific location
+                </p>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem">
+              <img
+                src="./img/weatherforecast.jpg"
+                class="card-img-top"
+                alt="Forecast"
+              />
+              <div class="card-body">
+                <p class="card-text fw-bold text-center">Weather Forecast</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Features ends-->
+      </div>
+      <br />
+    </main>
+    <!--Main layout-->
+
+    <!--Footer-->
+    <footer class="bg-light text-lg-start">
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: #eee; color: #222">
+        © 2021 Copyright:
+        <a class="text-dark" href="https://gudivaraprasad.github.io/GVP/"
+          >GVP</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!--Footer-->
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
