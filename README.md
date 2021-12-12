@@ -12,4 +12,10 @@
 
 ![](./APK/img/background.jpg)
 
-[Click here to know more](https://gudivaraprasad.github.io/Android-Weather-App/APK/)
+> Project Demo : [Click here to know more](https://gudivaraprasad.github.io/Android-Weather-App/APK/)
+
+> UML Diagrams : [Click here](https://gudivaraprasad.github.io/Android-Weather-App/Files/UML%20Diagrams/)
+
+> Project Report : [Click here](https://gudivaraprasad.github.io/Android-Weather-App/APK/Files/Report.pdf)
+
+> Project Presentations : [Click here](https://gudivaraprasad.github.io/Android-Weather-App/APK/Files)
