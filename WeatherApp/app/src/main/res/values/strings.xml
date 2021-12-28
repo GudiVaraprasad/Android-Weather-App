@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="ok">OK</string>
+    <string name="about">About</string>
+    <string name="about_text">
+        The main goal of this project is to develop an android application for checking weather conditions like weather description, weather forecast, temperature of a specific location through android mobile. This app is developed by Varaprasad &amp; Team.
+    </string>
+</resources>
